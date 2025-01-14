@@ -90,7 +90,7 @@ export default function CharactersList() {
         </div>
         <div className="col-md-4 d-flex justify-content-between">
           <select className="form-select" value={sortField} onChange={handleSortChange}>
-            <option value="name">{translations.sort} - {translations.name}</option>
+            <option value="name">{translations.sort} - Name</option>
             <option value="origin">{translations.sort} - {translations.origin}</option>
           </select>
           <button className="btn btn-secondary" onClick={toggleSortOrder}>

@@ -27,7 +27,7 @@ const languages = {
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState("en"); // Default language is English
+  const [language, setLanguage] = useState("en");
 
   // Function to toggle between English and German
   const toggleLanguage = () => {
